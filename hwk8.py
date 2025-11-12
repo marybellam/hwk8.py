@@ -191,7 +191,13 @@ def main():
     
     print("Possible Locations: athletic fields, burton lawn, capen garden,chapin lawn, conway gazebo, grecourt gates, happy chace garden,japanese garden,lamont bridge,lanning fountain,seelye lawn,rock garden,rock park,systematics garden and perennial border,trudys garden, davis lawn, cutter courtyard, quad lawn")
     input_start = input("Enter Starting Location: ").strip().lower()
+    while input_start not in graph.keys():
+        print("Invalid starting location. Please try again.")
+        input_start = input("Enter Starting Location: ").strip().lower()
     input_finish = input("Enter Ending Location: ").strip().lower()
+    while input_finish not in graph.keys():
+        print("Invalid ending location. Please try again.")
+        input_finish = input("Enter Ending Location: ").strip().lower()
     path = run_dijkstra(graph,input_start,input_finish)
     print("The shortest path is", path)
 
