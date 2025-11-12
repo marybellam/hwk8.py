@@ -7,66 +7,66 @@ def make_graph() -> dict[str, dict[str,int]]:
     :returns: dict graph of nodes and weights
     """
     graph:dict[str, dict[str,int]] = {}
-    graph["athletic_Fields"] = {}
-    graph["athletic_Fields"]["lamont_Bridge"] = 10
-    graph["lamont_Bridge"] = {}
-    graph["lamont_Bridge"]["athletic_Fields"] = 10
-    graph["burton_Lawn"] = {}
-    graph["burton_Lawn"]["seelye_Lawn"] = 3 
-    graph["burton_Lawn"]["lanning_Fountain"] = 4 
-    graph["burton_Lawn"]["rock_Park"] = 5 
-    graph["capen_Garden"] = {}
-    graph["capen_Garden"]["conway_Gazebo"] = 1
-    graph["capen_Garden"]["davis_Lawn"] = 1
-    graph["chapin_Lawn"] = {}
-    graph["chapin_Lawn"]["seelye_Lawn"] = 2
-    graph["chapin_Lawn"]["cutter_Courtyard"] = 8
-    graph["chapin_Lawn"]["rock_Garden"] = 4
-    graph["conway_Gazebo"] = {}
-    graph["conway_Gazebo"]["capen_Garden"] = 1
-    graph["grecourt_Gate"] = {}
-    graph["grecourt_Gate"]["seelye_Lawn"] = 6
-    graph["grecourt_Gate"]["trudys_Garden"] = 9
-    graph["happy_Chace_28_Garden"] = {}
-    graph["happy_Chace_28_Garden"]["japanese_Garden"] = 4
-    graph["happy_Chace_28_Garden"]["systematics_Garden_and_Perennial_Border"] = 5
-    graph["happy_Chace_28_Garden"]["quad_Lawn"] = 3
-    graph["japanese_Garden"] = {}
-    graph["japanese_Garden"]["happy_Chace_28_Garden"] = 4
-    graph["lamont_Bridge"]["rock_Park"] = 7
-    graph["lanning_Fountain"] = {}
-    graph["lanning_Fountain"]["rock_Garden"] = 4
-    graph["lanning_Fountain"]["systematics_Garden_and_Perennial_Border"]  = 2
-    graph["lanning_Fountain"]["rock_Park"] = 9
-    graph["lanning_Fountain"]["burton_Lawn"] = 3
-    graph["seelye_Lawn"] = {}
-    graph["seelye_Lawn"]["chapin_Lawn"] = 2
-    graph["seelye_Lawn"]["grecourt_Gate"] = 6
-    graph["seelye_Lawn"]["burton_Lawn"] = 3
-    graph["rock_Garden"] = {}
-    graph["rock_Garden"]["chapin_Lawn"] = 4
-    graph["rock_Garden"]["systematics_Garden_and_Perennial_Border"] =1
-    graph["rock_Garden"]["lanning_Fountain"] = 4
-    graph["rock_Park"] = {}
-    graph["rock_Park"]["lanning_Fountain"] = 9
-    graph["rock_Park"]["lamont_Bridge"] = 7
-    graph["rock_Park"]["burton_Lawn"] = 5
-    graph["rock_Park"]["systematics_Garden_and_Perennial_Border"] = 10
-    graph["systematics_Garden_and_Perennial_Border"] = {}
-    graph["systematics_Garden_and_Perennial_Border"]["happy_Chace_28_Garden"] = 5
-    graph["systematics_Garden_and_Perennial_Border"]["rock_Garden"] = 1
-    graph["systematics_Garden_and_Perennial_Border"]["lanning_Fountain"] = 2
-    graph["systematics_Garden_and_Perennial_Border"]["rock_Park"] = 10
-    graph["trudys_Garden"] = {}
-    graph["trudys_Garden"]["grecourt_Gate"] = 9
-    graph["davis_Lawn"] = {}
-    graph["davis_Lawn"]["cutter_Courtyard"] = 2
-    graph["davis_Lawn"]["capen_Garden"] = 1
-    graph["cutter_Courtyard"] = {}
-    graph["cutter_Courtyard"]["davis_Lawn"] = 2
-    graph["cutter_Courtyard"]["chapin_Lawn"] = 8
-    graph["quad_Lawn"] = {}
-    graph["quad_Lawn"]["happy_Chace_28_Garden"] = 3
+    graph["athletic fields"] = {}
+    graph["athletic fields"]["lamont bridge"] = 10
+    graph["lamont bridge"] = {}
+    graph["lamont bridge"]["athletic fields"] = 10
+    graph["burton lawn"] = {}
+    graph["burton lawn"]["seelye lawn"] = 3 
+    graph["burton lawn"]["lanning fountain"] = 4 
+    graph["burton lawn"]["rock park"] = 5 
+    graph["capen garden"] = {}
+    graph["capen garden"]["conway gazebo"] = 1
+    graph["capen garden"]["davis lawn"] = 1
+    graph["chapin lawn"] = {}
+    graph["chapin lawn"]["seelye lawn"] = 2
+    graph["chapin lawn"]["cutter courtyard"] = 8
+    graph["chapin lawn"]["rock garden"] = 4
+    graph["conway gazebo"] = {}
+    graph["conway gazebo"]["capen garden"] = 1
+    graph["grecourt gates"] = {}
+    graph["grecourt gates"]["seelye lawn"] = 6
+    graph["grecourt gates"]["trudys garden"] = 9
+    graph["happy chace garden"] = {}
+    graph["happy chace garden"]["japanese garden"] = 4
+    graph["happy chace garden"]["systematics garden and perennial border"] = 5
+    graph["happy chace garden"]["quad lawn"] = 3
+    graph["japanese garden"] = {}
+    graph["japanese garden"]["happy chace garden"] = 4
+    graph["lamont bridge"]["rock park"] = 7
+    graph["lanning fountain"] = {}
+    graph["lanning fountain"]["rock garden"] = 4
+    graph["lanning fountain"]["systematics garden and perennial border"]  = 2
+    graph["lanning fountain"]["rock park"] = 9
+    graph["lanning fountain"]["burton lawn"] = 3
+    graph["seelye lawn"] = {}
+    graph["seelye lawn"]["chapin lawn"] = 2
+    graph["seelye lawn"]["grecourt gates"] = 6
+    graph["seelye lawn"]["burton lawn"] = 3
+    graph["rock garden"] = {}
+    graph["rock garden"]["chapin lawn"] = 4
+    graph["rock garden"]["systematics garden and perennial border"] =1
+    graph["rock garden"]["lanning fountain"] = 4
+    graph["rock park"] = {}
+    graph["rock park"]["lanning fountain"] = 9
+    graph["rock park"]["lamont bridge"] = 7
+    graph["rock park"]["burton lawn"] = 5
+    graph["rock park"]["systematics garden and perennial border"] = 10
+    graph["systematics garden and perennial border"] = {}
+    graph["systematics garden and perennial border"]["happy chace garden"] = 5
+    graph["systematics garden and perennial border"]["rock garden"] = 1
+    graph["systematics garden and perennial border"]["lanning fountain"] = 2
+    graph["systematics garden and perennial border"]["rock park"] = 10
+    graph["trudys garden"] = {}
+    graph["trudys garden"]["grecourt gates"] = 9
+    graph["davis lawn"] = {}
+    graph["davis lawn"]["cutter courtyard"] = 2
+    graph["davis lawn"]["capen garden"] = 1
+    graph["cutter courtyard"] = {}
+    graph["cutter courtyard"]["davis lawn"] = 2
+    graph["cutter courtyard"]["chapin lawn"] = 8
+    graph["quad lawn"] = {}
+    graph["quad lawn"]["happy chace garden"] = 3
     return graph
 
 
@@ -149,19 +149,24 @@ def run_dijkstra(graph:dict[str, dict[str,int]], start:str, finish:str) -> list[
             path = [node] + path
     return path
 
-
 #Main:
 def main():
     graph = make_graph()
     #print("Graph:", graph)
-    start = "athletic_Fields"
-    finish = "lamont_Bridge"
+    start = "athletic fields"
+    finish = "lamont bridge"
     path = run_dijkstra(graph,start,finish)
     print("The shortest path is", path)
     
-    start = "capen_Garden"
-    finish = "burton_Lawn"
+    start = "capen garden"
+    finish = "burton lawn"
     path = run_dijkstra(graph,start,finish)
+    print("The shortest path is", path)
+    
+    print("Possible Locations: athletic fields, burton lawn, capen garden,chapin lawn,conway gazebo,grecourt gates, happy chace garden,japanese garden,lamont bridge,lanning fountain,aeelye lawn,rock garden,rock park,systematics garden and perennial border,trudys garden, davis lawn, cutter courtyard, quad lawn")
+    input_start = input("Enter Starting Location: ").strip().lower()
+    input_finish = input("Enter Ending Location: ").strip().lower()
+    path = run_dijkstra(graph,input_start,input_finish)
     print("The shortest path is", path)
 
 if __name__ == "__main__":
