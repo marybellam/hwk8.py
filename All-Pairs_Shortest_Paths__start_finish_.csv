@@ -1,0 +1,307 @@
+start,finish,distance,path
+athletic_Fields,burton_Lawn,22,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn
+athletic_Fields,capen_Garden,38,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+athletic_Fields,chapin_Lawn,27,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn
+athletic_Fields,conway_Gazebo,39,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+athletic_Fields,cutter_Courtyard,35,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+athletic_Fields,davis_Lawn,37,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+athletic_Fields,grecourt_Gate,31,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> grecourt_Gate
+athletic_Fields,happy_Chace_28_Garden,32,athletic_Fields -> lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+athletic_Fields,japanese_Garden,36,athletic_Fields -> lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+athletic_Fields,lamont_Bridge,10,athletic_Fields -> lamont_Bridge
+athletic_Fields,lanning_Fountain,25,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> lanning_Fountain
+athletic_Fields,quad_Lawn,35,athletic_Fields -> lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+athletic_Fields,rock_Garden,28,athletic_Fields -> lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> rock_Garden
+athletic_Fields,rock_Park,17,athletic_Fields -> lamont_Bridge -> rock_Park
+athletic_Fields,seelye_Lawn,25,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn
+athletic_Fields,systematics_Garden_and_Perennial_Border,27,athletic_Fields -> lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border
+athletic_Fields,trudys_Garden,40,athletic_Fields -> lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+burton_Lawn,athletic_Fields,22,burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+burton_Lawn,capen_Garden,16,burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+burton_Lawn,chapin_Lawn,5,burton_Lawn -> seelye_Lawn -> chapin_Lawn
+burton_Lawn,conway_Gazebo,17,burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+burton_Lawn,cutter_Courtyard,13,burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+burton_Lawn,davis_Lawn,15,burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+burton_Lawn,grecourt_Gate,9,burton_Lawn -> seelye_Lawn -> grecourt_Gate
+burton_Lawn,happy_Chace_28_Garden,10,burton_Lawn -> lanning_Fountain -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+burton_Lawn,japanese_Garden,14,burton_Lawn -> lanning_Fountain -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+burton_Lawn,lamont_Bridge,12,burton_Lawn -> rock_Park -> lamont_Bridge
+burton_Lawn,lanning_Fountain,3,burton_Lawn -> lanning_Fountain
+burton_Lawn,quad_Lawn,13,burton_Lawn -> lanning_Fountain -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+burton_Lawn,rock_Garden,6,burton_Lawn -> lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden
+burton_Lawn,rock_Park,5,burton_Lawn -> rock_Park
+burton_Lawn,seelye_Lawn,3,burton_Lawn -> seelye_Lawn
+burton_Lawn,systematics_Garden_and_Perennial_Border,5,burton_Lawn -> lanning_Fountain -> systematics_Garden_and_Perennial_Border
+burton_Lawn,trudys_Garden,18,burton_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+capen_Garden,athletic_Fields,38,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+capen_Garden,burton_Lawn,16,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn
+capen_Garden,chapin_Lawn,11,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn
+capen_Garden,conway_Gazebo,1,capen_Garden -> conway_Gazebo
+capen_Garden,cutter_Courtyard,3,capen_Garden -> davis_Lawn -> cutter_Courtyard
+capen_Garden,davis_Lawn,1,capen_Garden -> davis_Lawn
+capen_Garden,grecourt_Gate,19,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+capen_Garden,happy_Chace_28_Garden,21,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+capen_Garden,japanese_Garden,25,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+capen_Garden,lamont_Bridge,28,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+capen_Garden,lanning_Fountain,18,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+capen_Garden,quad_Lawn,24,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+capen_Garden,rock_Garden,15,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden
+capen_Garden,rock_Park,21,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park
+capen_Garden,seelye_Lawn,13,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn
+capen_Garden,systematics_Garden_and_Perennial_Border,16,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+capen_Garden,trudys_Garden,28,capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+chapin_Lawn,athletic_Fields,27,chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+chapin_Lawn,burton_Lawn,5,chapin_Lawn -> seelye_Lawn -> burton_Lawn
+chapin_Lawn,capen_Garden,11,chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+chapin_Lawn,conway_Gazebo,12,chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+chapin_Lawn,cutter_Courtyard,8,chapin_Lawn -> cutter_Courtyard
+chapin_Lawn,davis_Lawn,10,chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+chapin_Lawn,grecourt_Gate,8,chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+chapin_Lawn,happy_Chace_28_Garden,10,chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+chapin_Lawn,japanese_Garden,14,chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+chapin_Lawn,lamont_Bridge,17,chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+chapin_Lawn,lanning_Fountain,7,chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+chapin_Lawn,quad_Lawn,13,chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+chapin_Lawn,rock_Garden,4,chapin_Lawn -> rock_Garden
+chapin_Lawn,rock_Park,10,chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park
+chapin_Lawn,seelye_Lawn,2,chapin_Lawn -> seelye_Lawn
+chapin_Lawn,systematics_Garden_and_Perennial_Border,5,chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+chapin_Lawn,trudys_Garden,17,chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+conway_Gazebo,athletic_Fields,39,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+conway_Gazebo,burton_Lawn,17,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn
+conway_Gazebo,capen_Garden,1,conway_Gazebo -> capen_Garden
+conway_Gazebo,chapin_Lawn,12,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn
+conway_Gazebo,cutter_Courtyard,4,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard
+conway_Gazebo,davis_Lawn,2,conway_Gazebo -> capen_Garden -> davis_Lawn
+conway_Gazebo,grecourt_Gate,20,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+conway_Gazebo,happy_Chace_28_Garden,22,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+conway_Gazebo,japanese_Garden,26,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+conway_Gazebo,lamont_Bridge,29,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+conway_Gazebo,lanning_Fountain,19,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+conway_Gazebo,quad_Lawn,25,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+conway_Gazebo,rock_Garden,16,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden
+conway_Gazebo,rock_Park,22,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park
+conway_Gazebo,seelye_Lawn,14,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn
+conway_Gazebo,systematics_Garden_and_Perennial_Border,17,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+conway_Gazebo,trudys_Garden,29,conway_Gazebo -> capen_Garden -> davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+cutter_Courtyard,athletic_Fields,35,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+cutter_Courtyard,burton_Lawn,13,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn
+cutter_Courtyard,capen_Garden,3,cutter_Courtyard -> davis_Lawn -> capen_Garden
+cutter_Courtyard,chapin_Lawn,8,cutter_Courtyard -> chapin_Lawn
+cutter_Courtyard,conway_Gazebo,4,cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+cutter_Courtyard,davis_Lawn,2,cutter_Courtyard -> davis_Lawn
+cutter_Courtyard,grecourt_Gate,16,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+cutter_Courtyard,happy_Chace_28_Garden,18,cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+cutter_Courtyard,japanese_Garden,22,cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+cutter_Courtyard,lamont_Bridge,25,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+cutter_Courtyard,lanning_Fountain,15,cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+cutter_Courtyard,quad_Lawn,21,cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+cutter_Courtyard,rock_Garden,12,cutter_Courtyard -> chapin_Lawn -> rock_Garden
+cutter_Courtyard,rock_Park,18,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park
+cutter_Courtyard,seelye_Lawn,10,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn
+cutter_Courtyard,systematics_Garden_and_Perennial_Border,13,cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+cutter_Courtyard,trudys_Garden,25,cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+davis_Lawn,athletic_Fields,37,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+davis_Lawn,burton_Lawn,15,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn
+davis_Lawn,capen_Garden,1,davis_Lawn -> capen_Garden
+davis_Lawn,chapin_Lawn,10,davis_Lawn -> cutter_Courtyard -> chapin_Lawn
+davis_Lawn,conway_Gazebo,2,davis_Lawn -> capen_Garden -> conway_Gazebo
+davis_Lawn,cutter_Courtyard,2,davis_Lawn -> cutter_Courtyard
+davis_Lawn,grecourt_Gate,18,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+davis_Lawn,happy_Chace_28_Garden,20,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+davis_Lawn,japanese_Garden,24,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+davis_Lawn,lamont_Bridge,27,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+davis_Lawn,lanning_Fountain,17,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+davis_Lawn,quad_Lawn,23,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+davis_Lawn,rock_Garden,14,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden
+davis_Lawn,rock_Park,20,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> burton_Lawn -> rock_Park
+davis_Lawn,seelye_Lawn,12,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn
+davis_Lawn,systematics_Garden_and_Perennial_Border,15,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+davis_Lawn,trudys_Garden,27,davis_Lawn -> cutter_Courtyard -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+grecourt_Gate,athletic_Fields,31,grecourt_Gate -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+grecourt_Gate,burton_Lawn,9,grecourt_Gate -> seelye_Lawn -> burton_Lawn
+grecourt_Gate,capen_Garden,19,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+grecourt_Gate,chapin_Lawn,8,grecourt_Gate -> seelye_Lawn -> chapin_Lawn
+grecourt_Gate,conway_Gazebo,20,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+grecourt_Gate,cutter_Courtyard,16,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+grecourt_Gate,davis_Lawn,18,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+grecourt_Gate,happy_Chace_28_Garden,18,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+grecourt_Gate,japanese_Garden,22,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+grecourt_Gate,lamont_Bridge,21,grecourt_Gate -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+grecourt_Gate,lanning_Fountain,12,grecourt_Gate -> seelye_Lawn -> burton_Lawn -> lanning_Fountain
+grecourt_Gate,quad_Lawn,21,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+grecourt_Gate,rock_Garden,12,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden
+grecourt_Gate,rock_Park,14,grecourt_Gate -> seelye_Lawn -> burton_Lawn -> rock_Park
+grecourt_Gate,seelye_Lawn,6,grecourt_Gate -> seelye_Lawn
+grecourt_Gate,systematics_Garden_and_Perennial_Border,13,grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+grecourt_Gate,trudys_Garden,9,grecourt_Gate -> trudys_Garden
+happy_Chace_28_Garden,athletic_Fields,32,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge -> athletic_Fields
+happy_Chace_28_Garden,burton_Lawn,10,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain -> burton_Lawn
+happy_Chace_28_Garden,capen_Garden,21,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+happy_Chace_28_Garden,chapin_Lawn,10,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn
+happy_Chace_28_Garden,conway_Gazebo,22,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+happy_Chace_28_Garden,cutter_Courtyard,18,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard
+happy_Chace_28_Garden,davis_Lawn,20,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+happy_Chace_28_Garden,grecourt_Gate,18,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+happy_Chace_28_Garden,japanese_Garden,4,happy_Chace_28_Garden -> japanese_Garden
+happy_Chace_28_Garden,lamont_Bridge,22,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge
+happy_Chace_28_Garden,lanning_Fountain,7,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+happy_Chace_28_Garden,quad_Lawn,3,happy_Chace_28_Garden -> quad_Lawn
+happy_Chace_28_Garden,rock_Garden,6,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden
+happy_Chace_28_Garden,rock_Park,15,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park
+happy_Chace_28_Garden,seelye_Lawn,12,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn
+happy_Chace_28_Garden,systematics_Garden_and_Perennial_Border,5,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border
+happy_Chace_28_Garden,trudys_Garden,27,happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+japanese_Garden,athletic_Fields,36,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge -> athletic_Fields
+japanese_Garden,burton_Lawn,14,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain -> burton_Lawn
+japanese_Garden,capen_Garden,25,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+japanese_Garden,chapin_Lawn,14,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn
+japanese_Garden,conway_Gazebo,26,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+japanese_Garden,cutter_Courtyard,22,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard
+japanese_Garden,davis_Lawn,24,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+japanese_Garden,grecourt_Gate,22,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+japanese_Garden,happy_Chace_28_Garden,4,japanese_Garden -> happy_Chace_28_Garden
+japanese_Garden,lamont_Bridge,26,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge
+japanese_Garden,lanning_Fountain,11,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+japanese_Garden,quad_Lawn,7,japanese_Garden -> happy_Chace_28_Garden -> quad_Lawn
+japanese_Garden,rock_Garden,10,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden
+japanese_Garden,rock_Park,19,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park
+japanese_Garden,seelye_Lawn,16,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn
+japanese_Garden,systematics_Garden_and_Perennial_Border,9,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border
+japanese_Garden,trudys_Garden,31,japanese_Garden -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+lamont_Bridge,athletic_Fields,10,lamont_Bridge -> athletic_Fields
+lamont_Bridge,burton_Lawn,12,lamont_Bridge -> rock_Park -> burton_Lawn
+lamont_Bridge,capen_Garden,28,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+lamont_Bridge,chapin_Lawn,17,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn
+lamont_Bridge,conway_Gazebo,29,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+lamont_Bridge,cutter_Courtyard,25,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+lamont_Bridge,davis_Lawn,27,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+lamont_Bridge,grecourt_Gate,21,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> grecourt_Gate
+lamont_Bridge,happy_Chace_28_Garden,22,lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+lamont_Bridge,japanese_Garden,26,lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+lamont_Bridge,lanning_Fountain,15,lamont_Bridge -> rock_Park -> burton_Lawn -> lanning_Fountain
+lamont_Bridge,quad_Lawn,25,lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+lamont_Bridge,rock_Garden,18,lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border -> rock_Garden
+lamont_Bridge,rock_Park,7,lamont_Bridge -> rock_Park
+lamont_Bridge,seelye_Lawn,15,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn
+lamont_Bridge,systematics_Garden_and_Perennial_Border,17,lamont_Bridge -> rock_Park -> systematics_Garden_and_Perennial_Border
+lamont_Bridge,trudys_Garden,30,lamont_Bridge -> rock_Park -> burton_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+lanning_Fountain,athletic_Fields,25,lanning_Fountain -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+lanning_Fountain,burton_Lawn,3,lanning_Fountain -> burton_Lawn
+lanning_Fountain,capen_Garden,18,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+lanning_Fountain,chapin_Lawn,7,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn
+lanning_Fountain,conway_Gazebo,19,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+lanning_Fountain,cutter_Courtyard,15,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard
+lanning_Fountain,davis_Lawn,17,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+lanning_Fountain,grecourt_Gate,12,lanning_Fountain -> burton_Lawn -> seelye_Lawn -> grecourt_Gate
+lanning_Fountain,happy_Chace_28_Garden,7,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+lanning_Fountain,japanese_Garden,11,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+lanning_Fountain,lamont_Bridge,15,lanning_Fountain -> burton_Lawn -> rock_Park -> lamont_Bridge
+lanning_Fountain,quad_Lawn,10,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+lanning_Fountain,rock_Garden,3,lanning_Fountain -> systematics_Garden_and_Perennial_Border -> rock_Garden
+lanning_Fountain,rock_Park,8,lanning_Fountain -> burton_Lawn -> rock_Park
+lanning_Fountain,seelye_Lawn,6,lanning_Fountain -> burton_Lawn -> seelye_Lawn
+lanning_Fountain,systematics_Garden_and_Perennial_Border,2,lanning_Fountain -> systematics_Garden_and_Perennial_Border
+lanning_Fountain,trudys_Garden,21,lanning_Fountain -> burton_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+quad_Lawn,athletic_Fields,35,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge -> athletic_Fields
+quad_Lawn,burton_Lawn,13,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain -> burton_Lawn
+quad_Lawn,capen_Garden,24,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+quad_Lawn,chapin_Lawn,13,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn
+quad_Lawn,conway_Gazebo,25,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+quad_Lawn,cutter_Courtyard,21,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard
+quad_Lawn,davis_Lawn,23,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+quad_Lawn,grecourt_Gate,21,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+quad_Lawn,happy_Chace_28_Garden,3,quad_Lawn -> happy_Chace_28_Garden
+quad_Lawn,japanese_Garden,7,quad_Lawn -> happy_Chace_28_Garden -> japanese_Garden
+quad_Lawn,lamont_Bridge,25,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge
+quad_Lawn,lanning_Fountain,10,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+quad_Lawn,rock_Garden,9,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden
+quad_Lawn,rock_Park,18,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park
+quad_Lawn,seelye_Lawn,15,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn
+quad_Lawn,systematics_Garden_and_Perennial_Border,8,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border
+quad_Lawn,trudys_Garden,30,quad_Lawn -> happy_Chace_28_Garden -> systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+rock_Garden,athletic_Fields,28,rock_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge -> athletic_Fields
+rock_Garden,burton_Lawn,6,rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain -> burton_Lawn
+rock_Garden,capen_Garden,15,rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+rock_Garden,chapin_Lawn,4,rock_Garden -> chapin_Lawn
+rock_Garden,conway_Gazebo,16,rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+rock_Garden,cutter_Courtyard,12,rock_Garden -> chapin_Lawn -> cutter_Courtyard
+rock_Garden,davis_Lawn,14,rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+rock_Garden,grecourt_Gate,12,rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+rock_Garden,happy_Chace_28_Garden,6,rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+rock_Garden,japanese_Garden,10,rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+rock_Garden,lamont_Bridge,18,rock_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge
+rock_Garden,lanning_Fountain,3,rock_Garden -> systematics_Garden_and_Perennial_Border -> lanning_Fountain
+rock_Garden,quad_Lawn,9,rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+rock_Garden,rock_Park,11,rock_Garden -> systematics_Garden_and_Perennial_Border -> rock_Park
+rock_Garden,seelye_Lawn,6,rock_Garden -> chapin_Lawn -> seelye_Lawn
+rock_Garden,systematics_Garden_and_Perennial_Border,1,rock_Garden -> systematics_Garden_and_Perennial_Border
+rock_Garden,trudys_Garden,21,rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+rock_Park,athletic_Fields,17,rock_Park -> lamont_Bridge -> athletic_Fields
+rock_Park,burton_Lawn,5,rock_Park -> burton_Lawn
+rock_Park,capen_Garden,21,rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+rock_Park,chapin_Lawn,10,rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn
+rock_Park,conway_Gazebo,22,rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+rock_Park,cutter_Courtyard,18,rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+rock_Park,davis_Lawn,20,rock_Park -> burton_Lawn -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+rock_Park,grecourt_Gate,14,rock_Park -> burton_Lawn -> seelye_Lawn -> grecourt_Gate
+rock_Park,happy_Chace_28_Garden,15,rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+rock_Park,japanese_Garden,19,rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+rock_Park,lamont_Bridge,7,rock_Park -> lamont_Bridge
+rock_Park,lanning_Fountain,8,rock_Park -> burton_Lawn -> lanning_Fountain
+rock_Park,quad_Lawn,18,rock_Park -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+rock_Park,rock_Garden,11,rock_Park -> systematics_Garden_and_Perennial_Border -> rock_Garden
+rock_Park,seelye_Lawn,8,rock_Park -> burton_Lawn -> seelye_Lawn
+rock_Park,systematics_Garden_and_Perennial_Border,10,rock_Park -> systematics_Garden_and_Perennial_Border
+rock_Park,trudys_Garden,23,rock_Park -> burton_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+seelye_Lawn,athletic_Fields,25,seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+seelye_Lawn,burton_Lawn,3,seelye_Lawn -> burton_Lawn
+seelye_Lawn,capen_Garden,13,seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+seelye_Lawn,chapin_Lawn,2,seelye_Lawn -> chapin_Lawn
+seelye_Lawn,conway_Gazebo,14,seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+seelye_Lawn,cutter_Courtyard,10,seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+seelye_Lawn,davis_Lawn,12,seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+seelye_Lawn,grecourt_Gate,6,seelye_Lawn -> grecourt_Gate
+seelye_Lawn,happy_Chace_28_Garden,12,seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+seelye_Lawn,japanese_Garden,16,seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+seelye_Lawn,lamont_Bridge,15,seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+seelye_Lawn,lanning_Fountain,6,seelye_Lawn -> burton_Lawn -> lanning_Fountain
+seelye_Lawn,quad_Lawn,15,seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+seelye_Lawn,rock_Garden,6,seelye_Lawn -> chapin_Lawn -> rock_Garden
+seelye_Lawn,rock_Park,8,seelye_Lawn -> burton_Lawn -> rock_Park
+seelye_Lawn,systematics_Garden_and_Perennial_Border,7,seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
+seelye_Lawn,trudys_Garden,15,seelye_Lawn -> grecourt_Gate -> trudys_Garden
+systematics_Garden_and_Perennial_Border,athletic_Fields,27,systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge -> athletic_Fields
+systematics_Garden_and_Perennial_Border,burton_Lawn,5,systematics_Garden_and_Perennial_Border -> lanning_Fountain -> burton_Lawn
+systematics_Garden_and_Perennial_Border,capen_Garden,16,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+systematics_Garden_and_Perennial_Border,chapin_Lawn,5,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn
+systematics_Garden_and_Perennial_Border,conway_Gazebo,17,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+systematics_Garden_and_Perennial_Border,cutter_Courtyard,13,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard
+systematics_Garden_and_Perennial_Border,davis_Lawn,15,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+systematics_Garden_and_Perennial_Border,grecourt_Gate,13,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate
+systematics_Garden_and_Perennial_Border,happy_Chace_28_Garden,5,systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+systematics_Garden_and_Perennial_Border,japanese_Garden,9,systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+systematics_Garden_and_Perennial_Border,lamont_Bridge,17,systematics_Garden_and_Perennial_Border -> rock_Park -> lamont_Bridge
+systematics_Garden_and_Perennial_Border,lanning_Fountain,2,systematics_Garden_and_Perennial_Border -> lanning_Fountain
+systematics_Garden_and_Perennial_Border,quad_Lawn,8,systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+systematics_Garden_and_Perennial_Border,rock_Garden,1,systematics_Garden_and_Perennial_Border -> rock_Garden
+systematics_Garden_and_Perennial_Border,rock_Park,10,systematics_Garden_and_Perennial_Border -> rock_Park
+systematics_Garden_and_Perennial_Border,seelye_Lawn,7,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn
+systematics_Garden_and_Perennial_Border,trudys_Garden,22,systematics_Garden_and_Perennial_Border -> rock_Garden -> chapin_Lawn -> seelye_Lawn -> grecourt_Gate -> trudys_Garden
+trudys_Garden,athletic_Fields,40,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge -> athletic_Fields
+trudys_Garden,burton_Lawn,18,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> burton_Lawn
+trudys_Garden,capen_Garden,28,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden
+trudys_Garden,chapin_Lawn,17,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn
+trudys_Garden,conway_Gazebo,29,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn -> capen_Garden -> conway_Gazebo
+trudys_Garden,cutter_Courtyard,25,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard
+trudys_Garden,davis_Lawn,27,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> cutter_Courtyard -> davis_Lawn
+trudys_Garden,grecourt_Gate,9,trudys_Garden -> grecourt_Gate
+trudys_Garden,happy_Chace_28_Garden,27,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden
+trudys_Garden,japanese_Garden,31,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> japanese_Garden
+trudys_Garden,lamont_Bridge,30,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> burton_Lawn -> rock_Park -> lamont_Bridge
+trudys_Garden,lanning_Fountain,21,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> burton_Lawn -> lanning_Fountain
+trudys_Garden,quad_Lawn,30,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border -> happy_Chace_28_Garden -> quad_Lawn
+trudys_Garden,rock_Garden,21,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden
+trudys_Garden,rock_Park,23,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> burton_Lawn -> rock_Park
+trudys_Garden,seelye_Lawn,15,trudys_Garden -> grecourt_Gate -> seelye_Lawn
+trudys_Garden,systematics_Garden_and_Perennial_Border,22,trudys_Garden -> grecourt_Gate -> seelye_Lawn -> chapin_Lawn -> rock_Garden -> systematics_Garden_and_Perennial_Border
