@@ -119,15 +119,11 @@ def find_lowest_cost_node(costs:dict[str,float], processed:list[str]) -> str|Non
     return lowest_cost_node
 
 def run_dijkstra(graph:dict[str, dict[str,int]], start:str, finish:str) -> list[str]:
-    """_summary_
-
-    Args:
-        graph (dict[str, dict[str,int]]): _description_
-        start (str): _description_
-        finish (str): _description_
-
-    Returns:
-        list[str]: _description_
+    """Run Dijkstra's algorithm to find the shortest path between start and finish nodes
+    :param graph: (dict[str, dict[str,int]]) The initial graph of nodes and weights
+    :param start: (str) The starting node
+    :param finish: (str) The ending node
+    :retuns: list[str] The shortest path from start node to end node
     """
     processed:list[str] = []
     parents = get_initial_parents(graph, start)
