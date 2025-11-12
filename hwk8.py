@@ -2,8 +2,11 @@
 # Peers:  - N/A 
 # References:  - N/A 
 
-def make_graph() -> dict:
-    graph = {}
+def make_graph() -> dict[str, dict[str,int]]:
+    """Make the graph repersentning campus locations and weights between them
+    :returns: dict graph of nodes and weights
+    """
+    graph:dict[str, dict[str,int]] = {}
     graph["athletic_Fields"] = {}
     graph["athletic_Fields"]["lamont_Bridge"] = 10
     graph["lamont_Bridge"] = {}
@@ -67,31 +70,42 @@ def make_graph() -> dict:
     return graph
 
 
-def get_initial_parents(graph:dict[str, dict[str,int]], initial:str) -> dict:
-    parents = {}
+def get_initial_parents(graph:dict[str, dict[str,int]], initial:str) -> dict[str,str|None]:
+    """Gets the inital parents for each node in the graph
+    :param graph:(dict[str, dict[str,int]]): Initial graph of nodes and weights
+    :param initial: (str) the starting node
+    :retuns: dict[str,str|None] graph of nodes and their parents
+    """
+    parents:dict[str,str|None] = {}
     for node in graph.keys():
-        if node is not None and node != initial:
+        if  node != initial:
             parents[node] = None
     initial_neighbors = graph[initial]
-    if initial_neighbors == None:   # Error Checking
-        return None
     for key in initial_neighbors.keys():
         parents[key] = initial
     return parents
     
-def get_initial_costs(graph:dict[str, dict[str,int]], initial:str) -> dict[str, int]:
-    costs = {}
+def get_initial_costs(graph:dict[str, dict[str,int]], initial:str) -> dict[str, float]:
+    """Gets the intial costs for each edge in the graph
+    :param graph: (dict[str, dict[str,int]]) Initial graph of nodes and weights
+    :param initial: (str): The starting node
+    :retuns: dict[str, float] the graph of nodes and their costs
+    """
+    costs:dict[str,float] = {}
     for node in graph.keys():
-        if node != None and node != initial:
+        if node != initial:
             costs[node] = float("inf")
     initial_neighbors = graph[initial]
-    if initial_neighbors == None:   # Error Checking
-        return None
     for key, value in initial_neighbors.items():
         costs[key] = value
     return costs
 
-def find_lowest_cost_node(costs:dict, processed:list) -> str:
+def find_lowest_cost_node(costs:dict[str,float], processed:list[str]) -> str|None:
+    """Finds the lowest cost node in the graph that has not been processed yet
+    :param costs: (dict[str,float]) graph nodes and their costs
+    :param processed: (list[str]): list of processed nodes
+    :returns:str|None: the lowest cost node that hasn't been processed yet
+    """
     lowest_cost = float("inf")
     lowest_cost_node = None
     # Go through each node.
@@ -105,7 +119,17 @@ def find_lowest_cost_node(costs:dict, processed:list) -> str:
     return lowest_cost_node
 
 def run_dijkstra(graph:dict[str, dict[str,int]], start:str, finish:str) -> list[str]:
-    processed = [] 
+    """_summary_
+
+    Args:
+        graph (dict[str, dict[str,int]]): _description_
+        start (str): _description_
+        finish (str): _description_
+
+    Returns:
+        list[str]: _description_
+    """
+    processed:list[str] = []
     parents = get_initial_parents(graph, start)
     costs = get_initial_costs(graph, start)
     node = find_lowest_cost_node(costs,processed)
