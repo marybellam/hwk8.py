@@ -118,7 +118,7 @@ def find_lowest_cost_node(costs:dict[str,float], processed:list[str]) -> str|Non
             lowest_cost_node = node
     return lowest_cost_node
 
-def run_dijkstra(graph:dict[str, dict[str,int]], start:str, finish:str) -> list[str]:
+def run_dijkstra(graph:dict[str, dict[str,int]], start:str, finish:str) -> list[str] : #look at output type
     """Run Dijkstra's algorithm to find the shortest path between start and finish nodes
     :param graph: (dict[str, dict[str,int]]) The initial graph of nodes and weights
     :param start: (str) The starting node
@@ -163,7 +163,7 @@ def main():
     path = run_dijkstra(graph,start,finish)
     print("The shortest path is", path)
     
-    print("Possible Locations: athletic fields, burton lawn, capen garden,chapin lawn,conway gazebo,grecourt gates, happy chace garden,japanese garden,lamont bridge,lanning fountain,aeelye lawn,rock garden,rock park,systematics garden and perennial border,trudys garden, davis lawn, cutter courtyard, quad lawn")
+    print("Possible Locations: athletic fields, burton lawn, capen garden,chapin lawn, conway gazebo, grecourt gates, happy chace garden,japanese garden,lamont bridge,lanning fountain,aeelye lawn,rock garden,rock park,systematics garden and perennial border,trudys garden, davis lawn, cutter courtyard, quad lawn")
     input_start = input("Enter Starting Location: ").strip().lower()
     input_finish = input("Enter Ending Location: ").strip().lower()
     path = run_dijkstra(graph,input_start,input_finish)
