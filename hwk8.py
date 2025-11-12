@@ -108,13 +108,10 @@ def find_lowest_cost_node(costs:dict[str,float], processed:list[str]) -> str|Non
     """
     lowest_cost = float("inf")
     lowest_cost_node = None
-    # Go through each node.
     for node in costs:
         cost = costs[node]
-        # If it's the lowest cost so far and hasn't been processed yet...
         if cost < lowest_cost and node not in processed:
-            # ... set it as the new lowest-cost node.
-            lowest_cost = cost
+            lowest_cost = cost #new lowest cost node
             lowest_cost_node = node
     return lowest_cost_node
 
@@ -144,8 +141,9 @@ def run_dijkstra(graph:dict[str, dict[str,int]], start:str, finish:str) -> list[
     path = [finish] 
     node = finish
     while (node != start):
-        if parents[node] != None:
-            node = parents[node]
+        parent = parents[node]
+        if parent != None:
+            node = parent
             path = [node] + path
     return path
 
@@ -158,12 +156,40 @@ def main():
     path = run_dijkstra(graph,start,finish)
     print("The shortest path is", path)
     
-    start = "capen garden"
-    finish = "burton lawn"
-    path = run_dijkstra(graph,start,finish)
+    path = run_dijkstra(graph,"capen garden","burton lawn")
     print("The shortest path is", path)
     
-    print("Possible Locations: athletic fields, burton lawn, capen garden,chapin lawn, conway gazebo, grecourt gates, happy chace garden,japanese garden,lamont bridge,lanning fountain,aeelye lawn,rock garden,rock park,systematics garden and perennial border,trudys garden, davis lawn, cutter courtyard, quad lawn")
+    path = run_dijkstra(graph,"burton lawn","seelye lawn")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"quad lawn","japanese garden")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"seelye lawn","lanning fountain")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"cutter courtyard","grecourt gates")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"conway gazebo","davis lawn")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"lanning fountain","rock park")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"rock park","conway gazebo")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"chapin lawn","quad lawn")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"chapin lawn","systematics garden and perennial border")
+    print("The shortest path is", path)
+    
+    path = run_dijkstra(graph,"athletic fields","conway gazebo")
+    print("The shortest path is", path)
+    
+    print("Possible Locations: athletic fields, burton lawn, capen garden,chapin lawn, conway gazebo, grecourt gates, happy chace garden,japanese garden,lamont bridge,lanning fountain,seelye lawn,rock garden,rock park,systematics garden and perennial border,trudys garden, davis lawn, cutter courtyard, quad lawn")
     input_start = input("Enter Starting Location: ").strip().lower()
     input_finish = input("Enter Ending Location: ").strip().lower()
     path = run_dijkstra(graph,input_start,input_finish)
